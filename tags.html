@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Long's Website</title>
+  </head>
+  <body>
+    <h1>Long Nguyen</h1>
+    <h2>About me</h2>
+    <p>I was born and raise in Vietnam</p>
+
+    <h2>My favorite website</h2>
+    <ul>
+      <li><a href="https://www.Facebook.com/">Facebook</a></li>
+      <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+    </ul>
+    <h2>My favorite pictures</h2>
+    <ol>
+      <li><img src="https://depts.washington.edu/advis104/wordpress/wp-content/uploads/2019/11/iStock-981020140.jpg" title="UW" style="width:300px; height: 250px;"></li>
+      <li> <a href="https://www.washington.edu"><img src="https://depts.washington.edu/advis104/wordpress/wp-content/uploads/2019/11/iStock-981020140.jpg" title="UW" style="width:300px; height: 250px;"></a></li>
+    </ol>
+
+    <h3>Some UW's images</h3>
+    <div style="display: flex;">
+      <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/92/2015/02/07205301/Cherries.jpg" title="UW in Spring" style="width: 500px; height: 250px;">
+      <img src="https://www.collegeconsensus.com/wp-content/uploads/2016/12/U-Washington-1024x312.jpg" title="UW's foundtain" style="width: 500px; height: 250px;">
+    </div>
+    <form id="formName" method="get">
+      <label for="name"> Please type your name</label><br>
+      <input type="text" id="name" name="name">
+    </form>
+    <button onclick="helloFunc()">Submit</button>
+    <p id="displayText" style="text-align: center; font-size: larger; font-family: 'Courier New', Courier, monospace; color: rgb(130, 195, 238);"></p>
+    <script>
+      function helloFunc() {
+        document.getElementById("displayText").innerHTML = "Hello ";
+      }
+    </script>
+  </body>
+</html>
