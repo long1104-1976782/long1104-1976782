@@ -1,0 +1,17 @@
+.float {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+#float_img_1 {
+  top: 900px;
+  left: 750px;
+}
+
+#float_img_2 {
+  top: 1000px;
+  left: 850px;
+  border-radius: 20%;
+  border: 5px yellow solid;
+}
