@@ -1,0 +1,27 @@
+#word_0 {
+  font-family: 'Courier New', Courier, monospace; font-style: italic; color: purple;
+}
+
+#word_1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration: underline; color:rgb(137, 139, 46)
+}
+
+#word_2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-decoration:line-through; color:springgreen
+}
+
+#word_3 {
+  font-family:'Times New Roman', Times, serif; text-decoration:wavy; color:steelblue
+}
+
+#word_title {
+  color:burlywood
+}
+
+#home_page {
+  background-image: url('https://posters.hsa.washington.edu/wp-content/uploads/2018/09/UW-Logo.png');
+}
+
+.nav_texts {
+  color:blueviolet
+}
